@@ -155,6 +155,7 @@ button {
 
 }
 
+
 .container {
     background-color: #3882f6;
     color: white;
@@ -185,4 +186,25 @@ button {
     gap: 0px;
     margin: 0;
     align-self: center;
+}
+
+.container h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*footer*/
+svg {
+    height: 13px;
+    width: 13px;
+    color: white
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    gap: 5px;
 }
