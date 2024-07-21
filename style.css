@@ -146,3 +146,41 @@ button {
 }
 
 /*fourth section */
+.mid-3 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.container {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.container button {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 50px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.inner p {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0;
+}
