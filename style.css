@@ -158,12 +158,15 @@ button {
 .container {
     background-color: #3882f6;
     color: white;
-    padding: 5px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 .container button {
@@ -179,8 +182,7 @@ button {
 }
 
 .inner p {
-    display: flex;
-    flex-direction: column;
     gap: 0px;
     margin: 0;
+    align-self: center;
 }
